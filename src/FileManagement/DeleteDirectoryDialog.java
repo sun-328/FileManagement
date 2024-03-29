@@ -23,8 +23,6 @@ public class DeleteDirectoryDialog extends JDialog implements DialogBox{
 		deleteButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// Add code to delete the selected directory here
-				// You can use fileOperationManager to perform the deletion
 				dispose(); // Close the dialog
 			}
 		});
